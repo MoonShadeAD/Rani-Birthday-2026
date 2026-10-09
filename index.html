@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>
+        Incoming Transmission
+    </title>
+    <link rel="preconnect" href="https://fonts.gfoogleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="countdown.css">
+</head>
+
+<body>
+
+    <canvas id="rain"></canvas>
+    <div id="spotlight"></div>
+    <div id="lampCone"></div>
+    <div id="lightning"></div>
+    <div id="fog"></div>
+    <div id="vignette"></div>
+    <div id="recordingLight"></div>
+    <main class="container">
+        <div id="terminalMessage">
+        </div>
+        <div class="statusBar">
+            <span class="statusDot"></span>
+            ENCRYPTED FILE DETECTED
+        </div>
+        <h1> CONFIDENTIAL MATERIAL </h1>
+        <p class="subtitle">
+            Release authorization pending...
+        </p>
+        <div id="countdown">
+            <div class="time-box">
+                <span id="days"> 00 </span>
+                <label> DAYS </label>
+            </div>
+            <div class="time-box">
+                <span id="hours"> 00 </span>
+                <label> HOURS </label>
+            </div>
+            <div class="time-box">
+                <span id="minutes"> 00 </span>
+                <label> MINUTES </label>
+            </div>
+            <div class="time-box">
+                <span id="seconds"> 00 </span>
+                <label> SECONDS </label>
+            </div>
+        </div>
+        <div class="warningText"> ACCESS RESTRICTED </div>
+    </main>
+    <div id="casePopup">
+        <div class="popup-content">
+            <div class="classifiedStamp"> CONFIDENTIAL </div>
+            <h1> NEW CASE RECEIVED </h1>
+            <div class="divider"></div>
+            <p> A classified investigation has arrived. </p>
+            <p>
+
+                Detective,
+
+                your immediate attention is required.
+
+            </p>
+            <p class="priority"> PRIORITY LEVEL: CRITICAL </p>
+            <a href="birthday.html">
+                <button> PROCEED TO CASE FILE </button>
+            </a>
+        </div>
+    </div>
+
+    <audio id="cooldownAudio" autoplay loop>
+        <source src="assets/audio/cd.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="rainAudio" loop>
+        <source src="assets/audio/rain.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="thunderAudio">
+        <source src="assets/audio/thunder.mp3" type="audio/mpeg">
+    </audio>
+    <script src="countdown.js"></script>
+</body>
+</html>
