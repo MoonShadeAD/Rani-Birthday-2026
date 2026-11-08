@@ -1,4 +1,4 @@
-const birthday = new Date("November 11, 2026 00:00:00").getTime();
+const birthday = new Date("November 10, 2026 00:00:00").getTime();
 const popup = document.getElementById("casePopup");
 const rainAudio = document.getElementById("rainAudio");
 const cooldownAudio = document.getElementById("cooldownAudio");
